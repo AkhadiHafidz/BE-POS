@@ -1,0 +1,141 @@
+ [LOGGER] 2025-07-21 03:44:21.254 PM error : controllers/user.controller.js:setRefreshToken - 
+Invalid `prisma.user.findUnique()` invocation:
+
+
+The table `User` does not exist in the current database.
+ [LOGGER] 2025-07-21 03:44:21.284 PM error : controllers/user.controller.js:setRefreshToken - 
+Invalid `prisma.user.findUnique()` invocation:
+
+
+The table `User` does not exist in the current database.
+ [LOGGER] 2025-07-21 03:44:26.947 PM error : controllers/user.controller.js:loginUser - 
+Invalid `prisma.user.findUnique()` invocation:
+
+
+The table `User` does not exist in the current database.
+ [LOGGER] 2025-07-21 10:44:12.211 PM error : controllers/user.controller.js:loginUser - 
+Invalid `prisma.user.findUnique()` invocation:
+
+
+The table `User` does not exist in the current database.
+ [LOGGER] 2025-07-21 11:02:09.255 PM error : controllers/product.controller.js:getAllProduct - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'railway.Product' doesn't exist`
+ [LOGGER] 2025-07-21 11:02:09.351 PM error : controllers/product.controller.js:getAllProduct - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'railway.Product' doesn't exist`
+ [LOGGER] 2025-07-21 11:02:09.410 PM error : controllers/product.controller.js:getAllProduct - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'railway.Product' doesn't exist`
+ [LOGGER] 2025-07-21 11:09:27.374 PM error : controllers/supplier.controller.js:getAllSupplier - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'railway.Supplier' doesn't exist`
+ [LOGGER] 2025-07-21 11:09:31.345 PM error : controllers/supplier.controller.js:getAllSupplier - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'railway.Supplier' doesn't exist`
+ [LOGGER] 2025-07-21 11:09:40.671 PM error : controllers/supplier.controller.js:getAllSupplier - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'railway.Supplier' doesn't exist`
+ [LOGGER] 2025-07-21 11:09:40.858 PM error : controllers/supplier.controller.js:getAllSupplier - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'railway.Supplier' doesn't exist`
+ [LOGGER] 2025-07-21 11:10:35.597 PM error : controllers/supplier.controller.js:getAllSupplier - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'railway.Supplier' doesn't exist`
+ [LOGGER] 2025-07-21 11:10:35.645 PM error : controllers/supplier.controller.js:getAllSupplier - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'railway.Supplier' doesn't exist`
+ [LOGGER] 2025-07-21 11:14:47.661 PM error : controllers/supplier.controller.js:getAllSupplier - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'railway.Supplier' doesn't exist`
+ [LOGGER] 2025-07-21 11:14:47.714 PM error : controllers/supplier.controller.js:getAllSupplier - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'railway.Supplier' doesn't exist`
+ [LOGGER] 2025-07-21 11:23:01.082 PM error : uncaughtException: getAllSupplier is not defined
+ReferenceError: getAllSupplier is not defined
+    at file:///C:/Users/HAFIDZ/OneDrive/Documents/POS/pos/pos/backend/src/routes/supplier.router.js:14:46
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+ [LOGGER] 2025-07-21 11:25:33.376 PM error : uncaughtException: getSupplierById is not defined
+ReferenceError: getSupplierById is not defined
+    at file:///C:/Users/HAFIDZ/OneDrive/Documents/POS/pos/pos/backend/src/routes/supplier.router.js:15:50
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+ [LOGGER] 2025-07-21 11:25:37.574 PM error : uncaughtException: createSupplier is not defined
+ReferenceError: createSupplier is not defined
+    at file:///C:/Users/HAFIDZ/OneDrive/Documents/POS/pos/pos/backend/src/routes/supplier.router.js:16:47
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+ [LOGGER] 2025-07-21 11:25:40.779 PM error : uncaughtException: updateSupplier is not defined
+ReferenceError: updateSupplier is not defined
+    at file:///C:/Users/HAFIDZ/OneDrive/Documents/POS/pos/pos/backend/src/routes/supplier.router.js:17:50
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+ [LOGGER] 2025-07-21 11:25:44.811 PM error : uncaughtException: updateSupplier is not defined
+ReferenceError: updateSupplier is not defined
+    at file:///C:/Users/HAFIDZ/OneDrive/Documents/POS/pos/pos/backend/src/routes/supplier.router.js:17:50
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+ [LOGGER] 2025-07-21 11:25:46.819 PM error : uncaughtException: deleteSupplier is not defined
+ReferenceError: deleteSupplier is not defined
+    at file:///C:/Users/HAFIDZ/OneDrive/Documents/POS/pos/pos/backend/src/routes/supplier.router.js:18:53
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+ [LOGGER] 2025-07-21 11:26:52.588 PM error : controllers/product.controller.js:getAllProduct - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'railway.Product' doesn't exist`
+ [LOGGER] 2025-07-21 11:26:52.703 PM error : controllers/product.controller.js:getAllProduct - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'railway.Product' doesn't exist`
+ [LOGGER] 2025-07-21 11:26:52.738 PM error : controllers/product.controller.js:getAllProduct - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'railway.Product' doesn't exist`
+ [LOGGER] 2025-07-21 11:31:13.479 PM error : controllers/product.controller.js:getAllProduct - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'railway.Product' doesn't exist`
+ [LOGGER] 2025-07-21 11:31:13.510 PM error : controllers/product.controller.js:getAllProduct - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'railway.Product' doesn't exist`
+ [LOGGER] 2025-07-21 11:31:13.550 PM error : controllers/product.controller.js:getAllProduct - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'railway.Product' doesn't exist`

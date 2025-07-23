@@ -1,0 +1,103 @@
+ [LOGGER] 2025-07-22 01:22:35.715 AM error : controllers/order.controller.js:getOrderById - 
+Invalid `prisma.orders.findUnique()` invocation:
+
+{
+  where: {
+    id: 1
+  },
+  include: {
+    Orderdetail: true,
+    ~~~~~~~~~~~
+?   user?: true,
+?   orderdetail?: true,
+?   orderreturn?: true
+  }
+}
+
+Unknown field `Orderdetail` for include statement on model `orders`. Available options are marked with ?.
+ [LOGGER] 2025-07-22 01:22:35.729 AM error : controllers/order.controller.js:getOrderById - 
+Invalid `prisma.orders.findUnique()` invocation:
+
+{
+  where: {
+    id: 1
+  },
+  include: {
+    Orderdetail: true,
+    ~~~~~~~~~~~
+?   user?: true,
+?   orderdetail?: true,
+?   orderreturn?: true
+  }
+}
+
+Unknown field `Orderdetail` for include statement on model `orders`. Available options are marked with ?.
+ [LOGGER] 2025-07-22 01:23:26.469 AM error : controllers/order.controller.js:getOrderById - 
+Invalid `prisma.orders.findUnique()` invocation:
+
+{
+  where: {
+    id: 2
+  },
+  include: {
+    Orderdetail: true,
+    ~~~~~~~~~~~
+?   user?: true,
+?   orderdetail?: true,
+?   orderreturn?: true
+  }
+}
+
+Unknown field `Orderdetail` for include statement on model `orders`. Available options are marked with ?.
+ [LOGGER] 2025-07-22 01:23:26.475 AM error : controllers/order.controller.js:getOrderById - 
+Invalid `prisma.orders.findUnique()` invocation:
+
+{
+  where: {
+    id: 2
+  },
+  include: {
+    Orderdetail: true,
+    ~~~~~~~~~~~
+?   user?: true,
+?   orderdetail?: true,
+?   orderreturn?: true
+  }
+}
+
+Unknown field `Orderdetail` for include statement on model `orders`. Available options are marked with ?.
+ [LOGGER] 2025-07-22 01:26:27.825 AM error : controllers/order.controller.js:getOrderById - 
+Invalid `prisma.orders.findUnique()` invocation:
+
+{
+  where: {
+    id: 3
+  },
+  include: {
+    Orderdetail: true,
+    ~~~~~~~~~~~
+?   user?: true,
+?   orderdetail?: true,
+?   orderreturn?: true
+  }
+}
+
+Unknown field `Orderdetail` for include statement on model `orders`. Available options are marked with ?.
+ [LOGGER] 2025-07-22 01:26:27.845 AM error : controllers/order.controller.js:getOrderById - 
+Invalid `prisma.orders.findUnique()` invocation:
+
+{
+  where: {
+    id: 3
+  },
+  include: {
+    Orderdetail: true,
+    ~~~~~~~~~~~
+?   user?: true,
+?   orderdetail?: true,
+?   orderreturn?: true
+  }
+}
+
+Unknown field `Orderdetail` for include statement on model `orders`. Available options are marked with ?.
+ [LOGGER] 2025-07-22 05:39:07.750 PM error : controllers/order.controller.js:insertorder - setorderCode is not defined

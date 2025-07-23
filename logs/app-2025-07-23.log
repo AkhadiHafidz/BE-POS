@@ -1,0 +1,10 @@
+ [LOGGER] 2025-07-23 02:45:22.442 PM error : controllers/order.controller.js:insertorder - 
+Invalid `prisma.product.update()` invocation:
+
+
+Transaction API error: Transaction already closed: A query cannot be executed on an expired transaction. The timeout for this transaction was 5000 ms, however 5052 ms passed since the start of the transaction. Consider increasing the interactive transaction timeout or doing less work in the transaction.
+ [LOGGER] 2025-07-23 02:45:24.419 PM error : controllers/order.controller.js:insertorder - 
+Invalid `prisma.product.update()` invocation:
+
+
+Transaction API error: Transaction already closed: A query cannot be executed on an expired transaction. The timeout for this transaction was 5000 ms, however 5142 ms passed since the start of the transaction. Consider increasing the interactive transaction timeout or doing less work in the transaction.
