@@ -9,10 +9,10 @@ import {
 import { autenticate } from "../controllers/error.controller.js";
 const categoryRoute = Router();
 
-categoryRoute.get("/category", autenticate, getAllcategory);
-categoryRoute.get("/category/:id", autenticate, getcategoryById);
-categoryRoute.post("/category", autenticate, createcategory);
-categoryRoute.put("/category/:id", autenticate, updatecategory);
-categoryRoute.delete("/category/:id", autenticate, deletecategory);
+categoryRoute.get("/api/category", autenticate, getAllcategory);
+categoryRoute.get("/api/category/:id", autenticate, getcategoryById);
+categoryRoute.post("/api/category", autenticate, createcategory);
+categoryRoute.put("/api/category/:id", autenticate, updatecategory);
+categoryRoute.delete("/api/category/:id", autenticate, deletecategory);
 
 export default categoryRoute;
